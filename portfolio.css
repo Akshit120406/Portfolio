@@ -1,0 +1,45 @@
+body{
+    background-color: #50813c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1#head{
+    color: #ffffff;
+    padding: 0px;
+    margin-left: 20px;
+}
+div#intro{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+div#intro img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+div#self-intro{
+   background-color: rgb(254, 254, 254);
+}
+div#intro h1{
+   margin-left: 30px;
+   font-size: 46px;
+}
+div#intro p{
+    margin: 30px;
+    margin-bottom: 50px;
+}
+div#education{
+     background-color: #ffffff;
+     color: #000000;
+     padding: 20px;
+}
+div#education #high-school{
+    background-color: rgb(254, 254, 254);
+    margin-bottom: 40px;
+}
