@@ -34,7 +34,7 @@ nav ul a{
 }
 nav ul a:hover{
     color: #f65a0c;
-    text-shadow: 0 0 5px #ebd7d7;
+    text-shadow: 0 0 5px #d6bebe;
     transition: 0.3s;
 }
 /* Toggle switch styles */
@@ -185,9 +185,10 @@ input:checked + .slider:before {
 }
 .form .contact-form label{
     color: #968b8b;
-    font-size: 18px
+    font-size: 18px;
     font-family: 'Courier Std', 'Noto Sans', sans-serif;
-
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 .form .contact-form input{
     padding: 10px;
