@@ -6,8 +6,9 @@
     <title>Home</title>
     <link rel="stylesheet" href="Home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/f486e4e26cff78f926a0192541f318bb?family=Courier+Std+Medium" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <header class="header">
@@ -26,14 +27,49 @@
             </ul>
         </nav>
     </header>
+    <!--Main Content-->
     <main>
-        <div class="background">
-            <img src="images/myself.jpeg" alt="Background Image">
-             <section class="home">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Akshit Singh, a passionate software developer with a knack for creating innovative solutions. Explore my resume, education, skills, projects, and feel free to contact me!</p>
-        </section>
+        <!--Introduction Section-->
+        <div class="introduction">
+                <img src="images/myself.jpeg" alt="Background Image">
+             <section class="intro-text">
+                <h1>AKSHIT SINGH</h1>
+                <p>Hi, I'm <strong>Akshit Singh</strong>, a passionate software developer with a knack for creating innovative projects and solutions. Explore my resume, education, skills, projects.</p>
+                <br>
+                <p class="intro-text-2">Feel free to reach out to me for collaborations, inquiries, or just to say hello!</p>
+            <div class="introduction-button">
+                <div class="intro-button">
+                    <button type="button" class="button-1"><a href="Projects.html">View My Projects</a></button>
+                    <button class="button-1" type="button "><a href="Resume.html">Download Resume</a></button>
+                </div>
+            </div>
+            </section>
         </div>
-       
+        <!--Form-->
+        <div class="form">
+                <p class="form-heading">Want to get in touch?<br>
+                Drop me a line!</p>
+            <form class="contact-form">
+                <!--First Name-->
+                <label for="FullName" >Full Name</label>
+                <input class="text-field" type="text" id="FullName" maxlength="256" name="full_name" placeholder="Enter your full name" required>
+                 <!--Email-->
+                <label for="Email" >Email</label>
+                <input class="text-field" type="email" id="Email" name="email" maxlength="256" placeholder="Enter your email" required>
+                 <!--Message-->
+                <label for="Message" >Message</label>
+                <textarea class="text-field" id="Message" name="message" maxlength="500" placeholder="Enter your message" required></textarea>
+                 <!--Submit Button-->
+                 <div class="form-button">
+                <button type="submit" class="button-2">Submit</button>
+                <!--Reset Button-->
+                <button type="reset" class="button-2">Reset</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <p>&copy; 2026 Akshit Singh. All rights reserved.</p>   
+        </div>
+    </main>
 </body>
 </html>
