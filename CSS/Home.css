@@ -10,6 +10,8 @@ body{
 header{
     color: #f65a0c;
     padding: 30px;
+    font-size: 18px;
+    margin-top: 15px;
     font-family: 'Noto Sans', sans-serif;
     display: flex;
     justify-content: space-between;
@@ -30,7 +32,7 @@ nav ul a{
     color: #968b8b;
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 nav ul a:hover{
     color: #f65a0c;
