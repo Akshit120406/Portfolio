@@ -36,6 +36,7 @@ nav ul a{
 }
 nav ul a:hover{
     color: #f65a0c;
+    text-decoration: underline;
     text-shadow: 0 0 5px #d6bebe;
     transition: 0.3s;
 }
