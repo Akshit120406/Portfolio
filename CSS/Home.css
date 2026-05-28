@@ -4,7 +4,7 @@
 }
 body{
     background-color: #eed8bc;
-    font-family: 'Noto Sans', sans-serif;
+    font-family:  'Noto Sans', sans-serif;
 }
 /* Header styles */
 header{
@@ -12,14 +12,14 @@ header{
     padding: 30px;
     font-size: 18px;
     margin-top: 15px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family:  'Noto Sans', sans-serif;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
 }
 header .logo{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
     font-size: 22px;
     font-weight: 500;
     opacity: 0%;
@@ -30,7 +30,7 @@ nav ul{
 }
 nav ul a{
     color: #968b8b;
-    font-weight: 500;
+    font-weight: 650;
     text-decoration: none;
     margin-right: 50px;
 }
@@ -119,14 +119,19 @@ input:checked + .slider:before {
     color: #f65a0c;
     font-size: 40px;
     font-weight: 600;
-    font-family: 'Courier Std', 'Noto Sans', sans-serif;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
     margin-bottom: 20px;
     letter-spacing: 3px;
+}
+.intro-text p{
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    opacity: 75%;
 }
 .intro-text-2{
     color: #f65a0c;
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
     letter-spacing: 1px;
     opacity: 75%;
 }
@@ -177,7 +182,7 @@ input:checked + .slider:before {
     color: #968b8b;
     font-size: 44px;
     font-weight: 450;
-    font-family: 'Courier Std', 'Noto Sans', sans-serif;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
     letter-spacing: 2px;
     margin: 0px 40px 50px 0px;
 }
@@ -189,7 +194,7 @@ input:checked + .slider:before {
 .form .contact-form label{
     color: #968b8b;
     font-size: 18px;
-    font-family: 'Courier Std', 'Noto Sans', sans-serif;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -230,11 +235,12 @@ input:checked + .slider:before {
 }
 .form .contact-form .text-field{
     padding: 10px;
-    font-family: 'Courier Std', 'Noto Sans', sans-serif;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
     letter-spacing: 1px;
     border-radius: 10px;
     border: none;
     width: 300px;
+    opacity: 65%;
 }
 .footer{
     background-color: #0f0f0f;

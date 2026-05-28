@@ -30,7 +30,7 @@ nav ul{
 }
 nav ul a{
     color: #968b8b;
-    font-weight: 500;
+    font-weight: 650;
     text-decoration: none;
     margin-right: 50px;
 }
@@ -108,9 +108,11 @@ input:checked + .slider:before {
     font-size: 48px;
     margin-bottom: 40px;
     text-decoration: underline;
+    font-family: 'Courier Std Medium', sans-serif;
 }
 .education h3{
     color: #f65a0c;
+    font-family: 'Courier Std Medium', sans-serif;
     text-decoration: underline;
     font-size: 32px;
     margin-top: 10px;
@@ -120,4 +122,5 @@ input:checked + .slider:before {
     margin-left: 50px;
     font-size: 24px;
     line-height: 1.5;
+    font-family: 'Courier Std Medium', sans-serif;
 }
