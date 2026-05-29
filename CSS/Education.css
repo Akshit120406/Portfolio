@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #eed8bc;
+    background-color: #dbd8bf;
     font-family: 'Noto Sans', sans-serif;
 }
 /* Header styles */
@@ -130,4 +130,14 @@ input:checked + .slider:before {
     text-align: center;
     padding: 20px;
     font-family: 'Noto Sans', sans-serif;
+}
+.footer p{
+    margin-bottom: 15px;
+}
+.footer .social-icons a{
+    color: #968b8b;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px;
+    font-size: 17px;
 }
