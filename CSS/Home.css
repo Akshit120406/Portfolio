@@ -104,14 +104,14 @@ input:checked + .slider:before {
 .introduction img{
     height: 300px;
     width: 300px;
-    margin: 170px 80px 200px 270px;
+    margin: 150px 80px 200px 270px;
     border-radius: 50%;
 
 }
 .intro-text{
     color: #968b8b;
     text-align: center;
-    padding: 190px 100px 100px 10px;
+    padding: 140px 100px 100px 10px;
     width: 500px;
     font-size: 18px;
 }
