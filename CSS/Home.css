@@ -242,6 +242,7 @@ input:checked + .slider:before {
     width: 300px;
     opacity: 65%;
 }
+/* Footer styles */
 .footer{
     background-color: #0f0f0f;
     color: #968b8b;
