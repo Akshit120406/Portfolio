@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dbd8bf;
+    font-family:  'Noto Sans', sans-serif;
+}
+/* Header styles */
+header{
+    color: #f65a0c;
+    padding: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+    font-family:  'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+header .logo{
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 0%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul a{
+    color: #968b8b;
+    font-weight: 650;
+    text-decoration: none;
+    margin-right: 50px;
+}
+nav ul a:hover{
+    color: #f65a0c;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #d6bebe;
+    transition: 0.3s;
+}
+/* Toggle switch styles */
+header .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:  #968b8b;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;   /* starts from left */
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+}
+
+/* when clicked */
+
+input:checked + .slider {
+  background-color: #f65a0c;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px); /* moves to right */
+}
+
+/* rounded */
+
+.slider.round {
+  border-radius: 24px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*Projects Section Styles*/
+.projects{
+  color: #968b8b;
+  padding: 50px;
+}
+.project-items{
+    padding: 20px;
+    margin: 10px 200px;
+    border-radius: 5px;
+}
+.controls{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+    margin-left: 100px;
+    position: sticky;
+    top: 0;
+    background-color: #dbd8bf;
+    padding: 10px;
+}
+.controls input{
+    padding: 10px;
+    border: none;
+    width: 600px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
+    color: #968b8b;
+}
+.controls input::placeholder{
+    color: #968b8b;
+    opacity: 0.7;
+} 
+.controls button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dbd8bf;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.project-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.project-card{
+    color: #968b8b;
+    padding: 20px;
+    margin: 10px 100px;
+    border-radius: 5px;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
+}
+.project-header{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.project-header p{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.project-card p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Footer styles */
+.footer{
+    background-color: #0f0f0f;
+    color: #968b8b;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer p{
+    margin-bottom: 15px;
+}
+.footer .social-icons a{
+    color: #968b8b;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px;
+    font-size: 17px;
+}
