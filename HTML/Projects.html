@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="../CSS/Projects.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,71 +36,113 @@
             <div class="project-items">
                 <!--Controls-->
                 <div class="controls">
-                    <input type="text" id="searchproject" placeholder="Search">
+                        <input type="text" id="searchproject" placeholder="Search">
 
-                    <button id="filter"><i class="fa-solid fa-filter fa-xl" style="color: #f65a0c;"></i></button>
+                        <button id="filter">
+                            <i class="fa-solid fa-filter fa-xl" style="color: #f65a0c;"></i>
+                        </button>
 
+                    <div class="filter-menu">
+                        <h4>Sort</h4>
+
+                        <div class="sort-options">
+                            <label><input type="radio" name="sort"> Newest</label>
+                            <label><input type="radio" name="sort"> Oldest</label>
+                        </div>
+
+                        <div class="tech-filters">
+                            <h4>Languages</h4>
+                            <button class="tech-chip">HTML</button>
+                            <button class="tech-chip">CSS</button>
+                            <button class="tech-chip">JavaScript</button>
+                            <button class="tech-chip">C</button>
+                            <button class="tech-chip">Python</button>
+                            <button class="tech-chip">Java</button>
+                            <h4>Tools</h4>
+                            <button class="tech-chip">GIT</button>
+                            <button class="tech-chip">Github</button>
+                            <button class="tech-chip">VS Code</button>
+                        </div>       
+                    </div>
                 </div>
-            <!--Project Cards-->
+                <!--Project Cards-->
                 <div class="project-cards">
 
-                    <div class="project-card">
+                    <div class="project-card" data-date="2025-08-15"
+                        data-tech="html">
 
                         <div class="project-header">
-                            <h3>Portfolio</h3>
+                            <a href="Home.html">
+                                <h3>HTML</h3></a>
                             <p>15 Aug 2025</p>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis repudiandae voluptatibus necessitatibus quis accusantium cupiditate, recusandae maiores velit facilis perferendis temporibus labore pariatur nemo! Nihil nostrum deserunt modi et?</p>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card" data-date="2025-08-16"
+                        data-tech="css">
                         <div class="project-header">
-                                <h3>Portfolio</h3>
+                                <a href="Home.html">
+                                    <h3>CSS</h3>
+                                </a>        
                                 <p>15 Aug 2025</p>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis repudiandae voluptatibus necessitatibus quis accusantium cupiditate, recusandae maiores velit facilis perferendis temporibus labore pariatur nemo! Nihil nostrum deserunt modi et?</p>
                     </div>
-                    <div class="project-card">
-
+                    <div class="project-card" data-date="2025-08-7"
+                        data-tech="javascript">
                         <div class="project-header">
-                            <h3>Portfolio</h3>
+                             <a href="Home.html">
+                                    <h3>JavaScript</h3>
+                            </a>  
                             <p>15 Aug 2025</p>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis repudiandae voluptatibus necessitatibus quis accusantium cupiditate, recusandae maiores velit facilis perferendis temporibus labore pariatur nemo! Nihil nostrum deserunt modi et?</p>
                     </div>
-                    <div class="project-card">
-
+                    <div class="project-card" data-date="2025-08-18"
+                        data-tech="git">
                         <div class="project-header">
-                            <h3>Portfolio</h3>
+                            <a href="Home.html">
+                                <h3>Git</h3>
+                            </a>
                             <p>15 Aug 2025</p>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis repudiandae voluptatibus necessitatibus quis accusantium cupiditate, recusandae maiores velit facilis perferendis temporibus labore pariatur nemo! Nihil nostrum deserunt modi et?</p>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card" data-date="2025-08-9"
+                        data-tech="github">
 
                         <div class="project-header">
-                            <h3>Portfolio</h3>
+                            <a href="Home.html">
+                                <h3>GitHub</h3>
+                            </a>
                             <p>15 Aug 2025</p>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis repudiandae voluptatibus necessitatibus quis accusantium cupiditate, recusandae maiores velit facilis perferendis temporibus labore pariatur nemo! Nihil nostrum deserunt modi et?</p>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card" data-date="2025-08-20"
+                        data-tech="git github">
 
                         <div class="project-header">
-                            <h3>Portfolio</h3>
+                            <a href="Home.html">
+                            <h3>GIT+GitHub</h3>
+                            </a>
                             <p>15 Aug 2025</p>
                         </div>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis repudiandae voluptatibus necessitatibus quis accusantium cupiditate, recusandae maiores velit facilis perferendis temporibus labore pariatur nemo! Nihil nostrum deserunt modi et?</p>
                     </div>
-                    <div class="project-card">
+                    <div class="project-card" data-date="2025-08-1"
+                        data-tech="python">
 
                         <div class="project-header">
-                            <h3>Portfolio</h3>
+                            <a href="Home.html">
+                                <h3>Python</h3>
+                            </a>
                             <p>15 Aug 2025</p>
                         </div>
 
@@ -123,5 +166,6 @@
             </div>
          </div>
     </main>
+    <script src="../JS/Projects.js"></script>
 </body>
 </html>

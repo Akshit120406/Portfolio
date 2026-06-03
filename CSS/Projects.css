@@ -116,10 +116,45 @@ input:checked + .slider:before {
     background-color: #dbd8bf;
     padding: 10px;
 }
+.filter-menu{
+    display:none;
+    position:absolute;
+    right:0;
+    top:10px;
+    padding:15px;
+    background:white;
+    border-radius:10px;
+    top: 50px;
+    z-index: 100;
+    width: 400px;
+}
+.show{
+    display:block;
+}
+.sort-options{
+    padding: 15px 0;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.tech-filters h4{
+    margin: 10px 0px;
+}
+.tech-filters .tech-chip{
+    padding: 10px 20px;
+    background-color: white;
+    color: #968b8b;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
+    letter-spacing: 3px;
+    margin: 5px 5px;
+}
 .controls input{
     padding: 10px;
     border: none;
-    width: 600px;
     border-radius: 5px;
     font-size: 16px;
     font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
@@ -129,12 +164,15 @@ input:checked + .slider:before {
     color: #968b8b;
     opacity: 0.7;
 } 
+.controls input[type="text"]{
+    width: 600px;
+}
 .controls button{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background-color: #dbd8bf;
-    color: white;
+    color: #f65a0c;
     font-size: 16px;
     cursor: pointer;
 }
@@ -143,6 +181,8 @@ input:checked + .slider:before {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    height: 600px;
+    overflow-y: auto;
 }
 .project-card{
     color: #968b8b;
@@ -150,6 +190,7 @@ input:checked + .slider:before {
     margin: 10px 100px;
     border-radius: 5px;
     font-family: 'Courier Std Medium', 'Noto Sans', sans-serif;
+    border-top: 2px solid #d6bebe;
 }
 .project-header{
     font-size: 20px;
@@ -157,6 +198,15 @@ input:checked + .slider:before {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+}
+.project-header a{
+    color: #f65a0c;
+    text-decoration: none;
+}
+.project-header a:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 5px #d6bebe;
+    transition: 0.3s;
 }
 .project-header p{
     font-size: 14px;
