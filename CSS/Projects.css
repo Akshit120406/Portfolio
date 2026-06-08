@@ -152,6 +152,16 @@ input:checked + .slider:before {
     letter-spacing: 3px;
     margin: 5px 5px;
 }
+.tech-chip:hover{
+    background-color: #f65a0c;
+    color: white;
+    border: 1px solid #f65a0c;
+    transition: 0.3s;
+}
+.tech-chip.active{
+    background: #f65a0c;
+    color: white;
+}
 .controls input{
     padding: 10px;
     border: none;
