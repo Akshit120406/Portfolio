@@ -96,18 +96,55 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-/*Resume Section*/
+/*Resume Content styles*/
 .resume{
-    background-color: #0f0f0f;
-    display: flex;
-    flex-direction: column;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
 }
-.resume h1{
-    color: #f65a0c;
+ .resume-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resume-content iframe {
+    width: 70%;
+    height: 700px;
+    border: none;
+}
+.dwld-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.dwld-btn .button-1{
+  background-color: #ffffff;
+    border-radius: 10px;
+    width: 150px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #968b8b;
     text-align: center;
-    padding: 20px;
+}
+.dwld-btn .button-1 a{
+    text-decoration: none;
+    color: #968b8b;
+    padding: 10px 20px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
     font-family: 'Noto Sans', sans-serif;
 }
+.dwld-btn .button-1 a:hover{
+    color: white;
+}
+.dwld-btn .button-1:hover{
+    background-color: #f65a0c;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 /* Footer styles */
 .footer{
     background-color: #0f0f0f;
