@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="../CSS/Home.css">
+    <title>Resume</title>
+    <link rel="stylesheet" href="../CSS/Resume.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
         <p class="logo">AKSHIT SINGH</p>
         <nav>
             <ul>
-                <li><a href="Home.html">HOM</a></li>
+                <li><a href="Home.html">HOME</a></li>
                 <li><a href="Education.html">EDUCATION</a></li>
                 <li><a href="Skills.html">SKILLS</a></li>
                 <li><a href="Projects.html">PROJECTS</a></li>
@@ -30,24 +30,28 @@
     </header>
     <!--Main Content-->
     <main>
-        <!--Resume Section-->
-            <div class="resume">
-                    <h1>My Resume</h1>
-                    <iframe src="../pdf/Resume.pdf" width="70%" height="600px"></iframe>
+        <div class="resume">
+               <div class="resume-content">
+               <iframe src="../pdf/Resume.pdf" width="100%" height="600"></iframe>
+               </div>
+               <div class="dwld-btn">
+                    <a href="../pdf/Resume.pdf"
+                    download="Akshit_Singh_Resume.pdf" class="button-1">Download Resume</a>
+               </div>
+        </div>
+        <div class="footer">
+                <p>&copy; 2026 Akshit Singh. All rights reserved.</p>   
+            <div class="social-icons">
+                <!--LinkedIn-->
+                <a href="https://www.linkedin.com/in/akshit-singh-716839336/" target="_blank"><i class="fa-brands fa-linkedin" style="color: rgb(182, 176, 176);"></i></a> 
+                <!--GitHub-->
+                <a href="https://github.com/Akshit120406" target="_blank"><i class="fa-brands fa-github" style="color: rgb(182, 176, 176);"></i></a>
+                <!--Instagram-->
+                <a href="https://www.instagram.com/bokuwa_.aksh/" target="_blank"><i class="fa-brands fa-instagram" style="color: rgb(182, 176, 176);"></i></a>
+                <!--Twitter-->
+                <a href="https://www.twitter.com/akshit1204" target="_blank"><i class="fa-brands fa-x-twitter" style="color: rgb(182, 176, 176);"></i></a> 
             </div>
-            <div class="footer">
-                    <p>&copy; 2026 Akshit Singh. All rights reserved.</p>   
-                <div class="social-icons">
-                    <!--LinkedIn-->
-                    <a href="https://www.linkedin.com/in/akshit-singh-716839336/" target="_blank"><i class="fa-brands fa-linkedin" style="color: rgb(182, 176, 176);"></i></a> 
-                    <!--GitHub-->
-                    <a href="https://github.com/Akshit120406" target="_blank"><i class="fa-brands fa-github" style="color: rgb(182, 176, 176);"></i></a>
-                    <!--Instagram-->
-                    <a href="https://www.instagram.com/bokuwa_.aksh/" target="_blank"><i class="fa-brands fa-instagram" style="color: rgb(182, 176, 176);"></i></a>
-                    <!--Twitter-->
-                    <a href="https://www.twitter.com/akshit1204" target="_blank"><i class="fa-brands fa-x-twitter" style="color: rgb(182, 176, 176);"></i></a> 
-                </div>
-            </div>
+         </div>
     </main>
 </body>
 </html>
