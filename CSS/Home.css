@@ -150,7 +150,7 @@ input:checked + .slider:before {
 .button-1{
     border-radius: 10px;
     border: none;
-}
+}   
 .button-1 a{
     text-decoration: none;
     color: #968b8b;
